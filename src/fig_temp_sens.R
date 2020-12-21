@@ -37,7 +37,7 @@ windows()
 plot_out = ggplot(r, aes(x = temp, y = r, group = as.character(q10), color = as.character(q10))) +
   geom_line(size = 2)+
   theme_classic() +
-  ylab(expression(Temperature~Sensativity~(metab[t] / metab[15]))) +
+  ylab(expression(Sensativity~(metab[t] / metab[15]))) +
   xlab(expression(Water~Temperature~(degree~C))) +
   theme(axis.text = element_text(size = 16),
         axis.title = element_text(size = 20),
